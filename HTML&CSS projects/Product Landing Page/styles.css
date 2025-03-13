@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .nav-link {
+    display: flex;
+    flex: auto;
+    flex-end: row;
+    align-items: right;
+    float: right;
+  }
+  
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: linen;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    padding: 1em;
+  }
+  
+  @media query only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  

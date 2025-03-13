@@ -1,0 +1,64 @@
+* {
+    font-style: sans-serif;
+  }
+  
+  .welcome-section {
+    font-style: sans-serif;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-transform: uppercase;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+  }
+  
+  a:visited {
+    color: yellow;
+  }
+  
+  li {
+    display: flex;
+    margin-left: 20px;
+    color: white;
+    font-style: Ariel;
+    cursor: pointer;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-style: ariel;
+  }
+  
+  .body {
+    margin: auto;
+    background-color: maroon;
+    color: white;
+    padding-top: 60px;
+  }
+  
+  .profile-link {
+    color: yellow;
+  }
+  
+  h1 {
+    height: 50px;
+    width: calc(var(--variable-width) + 20px);
+  }
+  
+  @media (inverted-colors: inverted) {
+    color: white;
+    color:black;
+  }
+  .main-text {
+    font: bold;
+  }
